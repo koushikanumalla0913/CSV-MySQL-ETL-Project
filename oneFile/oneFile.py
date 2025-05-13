@@ -8,10 +8,10 @@ import pypyodbc as odbc
 # ---------- CONFIG ---------- 
 CSV_FILE_PATH = "data\\ad_click_dataset.csv" 
 SQLSERVER_CONFIG = {
-    "DRIVER": "SQL Server",
-    "SERVER_NAME": "DESKTOP-AMQUOAF\\SQLEXPRESS",  
-    "DATABASE_NAME": "myDatabase", 
-    "TABLE_NAME": "Ad_Clicks" 
+    "DRIVER": "<drivername>",
+    "SERVER_NAME": "<servername>",  
+    "DATABASE_NAME": "<Database name>", 
+    "TABLE_NAME": "<table name>" 
 }
 
 # ---------- SPARK SESSION ----------
